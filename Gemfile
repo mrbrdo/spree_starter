@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-ruby '3.0.3'
+ruby '2.7.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7'
+gem 'rails', '~> 6'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -74,6 +74,7 @@ gem 'spree', '~> 4.5'
 gem 'spree_sample', '~> 4.5'
 gem 'spree_emails', '~> 4.5'
 gem 'spree_backend', '~> 4.5'
+gem 'spree_frontend', '~> 4.5'
 gem 'spree_gateway', '~> 3.10'
 gem 'spree_auth_devise', '~> 4.5'
 gem 'spree_i18n', '~> 5.1'
