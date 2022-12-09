@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.7.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6'
+gem 'rails', '~> 7'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -74,9 +74,9 @@ gem 'spree', '~> 4.5'
 gem 'spree_sample', '~> 4.5'
 gem 'spree_emails', '~> 4.5'
 gem 'spree_backend', '~> 4.5'
-gem 'spree_frontend', '~> 4.5'
+gem 'spree_frontend', github: 'spree/spree_legacy_frontend', branch: 'main'
 gem 'spree_gateway', '~> 3.10'
-gem 'spree_auth_devise', '~> 4.5'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'main'
 gem 'spree_i18n', '~> 5.1'
 gem 'spree_dev_tools', require: false, group: %w[test development]
 
@@ -102,3 +102,6 @@ gem 'oj'
 
 # Fix SCSS errors with Ruby 3 on MacOS
 gem 'sassc', github: 'sass/sassc-ruby', group: :development
+
+# Use Redis for Action Cable
+gem "redis", "~> 4.0"
