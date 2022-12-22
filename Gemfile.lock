@@ -1,4 +1,25 @@
 GIT
+  remote: https://github.com/mrbrdo/spree_legacy_frontend.git
+  revision: 1e6dfaac59f1f53f1d6ebbde6a6881b79acc8404
+  branch: flags_gem
+  specs:
+    spree_frontend (4.5.0.alpha)
+      babel-transpiler (~> 0.7)
+      bootstrap (~> 4.0)
+      canonical-rails (~> 0.2, >= 0.2.10)
+      flag-icons-rails (~> 3.4)
+      glyphicons (~> 1.0)
+      inline_svg (~> 1.5)
+      jquery-rails (~> 4.3)
+      jsbundling-rails
+      responders
+      sass-rails (>= 5)
+      spree_api (>= 4.5.0.alpha)
+      spree_core (>= 4.5.0.alpha)
+      sprockets (~> 4.0)
+      turbo-rails
+
+GIT
   remote: https://github.com/sass/sassc-ruby.git
   revision: 4fce2b635ca5d616a8b1381c64846410bc785ea4
   specs:
@@ -15,26 +36,6 @@ GIT
       devise-encryptable (= 0.2.0)
       spree_core (>= 4.5.0)
       spree_extension
-
-GIT
-  remote: https://github.com/spree/spree_legacy_frontend.git
-  revision: 682ad4acf911735d1d6b3100c32dbcd215ec7a9c
-  branch: main
-  specs:
-    spree_frontend (4.5.0)
-      babel-transpiler (~> 0.7)
-      bootstrap (~> 4.0)
-      canonical-rails (~> 0.2, >= 0.2.10)
-      glyphicons (~> 1.0)
-      inline_svg (~> 1.5)
-      jquery-rails (~> 4.3)
-      jsbundling-rails
-      responders
-      sass-rails (>= 5)
-      spree_api (>= 4.5.0)
-      spree_core (>= 4.5.0)
-      sprockets (~> 4.0)
-      turbo-rails
 
 GEM
   remote: https://rubygems.org/
